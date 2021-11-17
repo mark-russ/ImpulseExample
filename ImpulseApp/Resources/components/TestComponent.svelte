@@ -20,17 +20,17 @@
 	{/each}
 </div>
 
+<p>Prop passed in from page: {name}</p>
+
+
 {#if show}
 	<div>You've turned me on!</div>
 {:else}
 	<div>I'm off :(</div>
 {/if}
 
-
-<p>Prop passed in from page: {name}</p>
-
 <button on:click={onClick}>
-	Click to say hello
+	Click me to toggle the thing above me!
 </button>
 
 <style>
