@@ -1,0 +1,20 @@
+{
+  "name": "impulse",
+  "version": "1.0.0",
+  "description": "An example ASP.NET Core project which incorporates Svelte and SASS compilation on Rollup bundler.",
+  "author": "Mark Russ",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "rollup": "^2.60.0",
+    "rollup-plugin-polyfill-node": "^0.7.0",
+    "rollup-plugin-scss": "^3.0.0",
+    "rollup-plugin-svelte": "^7.1.0",
+    "sass": "^1.43.4",
+    "svelte": "^3.44.1"
+  },
+  "scripts": {
+    "build": "rollup -c rollup.config.js",
+    "watch": "rollup -c rollup.config.js --watch"
+  }
+}
